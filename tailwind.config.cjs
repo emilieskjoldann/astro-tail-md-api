@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
     content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
     plugins: [
@@ -9,6 +10,14 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+
+                'sans': ['"Prompt"', ...defaultTheme.fontFamily.sans],
+                
+                'display': ['"Roboto"', 'monospace'], // Adds a new `font-display` class
+                
+                },
+
             colors: {
                 'persianmosaic': {
                     100: '#7aa1a9',
@@ -22,6 +31,8 @@ module.exports = {
                     900: '#072f36',
                   },
             }
+            
         }
     },
+    
   };

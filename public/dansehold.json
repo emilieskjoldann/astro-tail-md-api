@@ -136,5 +136,28 @@
         "nythold": true,
         "rabat": false,
         "rabatsats": "5%"
+    },
+    {
+        "id": 7, 
+        "holdnavn": "Salsa",
+        "holdbillede": "salsa.webp",
+        "hodlbilledealt": "Jitterbug dans",
+        "holdbeskrivelse": "Jitterbug er til alle jer rock 'n' roll elskere. Kridt danseskoene af, og kom og fyr den af. Lær at kaste med din dansepartner og bruge en kam mens du spjætter med benene.",
+        "holdcatchline": "Jitterbug - 50'er retro dans i 2020'erne", 
+        "tilmeldingslink": "/jitterbug",
+        "tidspunkt": "onsdag 18-20",
+        "underviser": "Hellvis",
+        "underviserfoto": "salsa_teacher.webp",
+        "underviserfotoalt": "Hellvis - instruktør på Jitterbug holdet", 
+        "underviserurl": "/undervisere/hellvis",
+        "underviserinfo": "Hellvis ligner Elvis - men han er bare en lokal bølle fra Ringsted. Til gengæld kan han danse som Elvis - og det elsker han at gøre. Men pas på - han har det med at forføre damerne på danseholdet.",
+        "niveau": "Mellem",
+        "alder": "18+",
+        "lokale": "Koncertsalen",
+        "pladserpaaholdet": 20,
+        "antaldeltagere": 10,
+        "nythold": true,
+        "rabat": false,
+        "rabatsats": "5%"
     }
 ]
